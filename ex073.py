@@ -1,0 +1,12 @@
+print(' TABELA BRASILEIRÃO 2018 '.center(60, '='))
+times = ('Palmeiras', 'Flamengo', 'Inter', 'Grêmio', 'São Paulo', 'Atlético-MG', 'Atlético-PR', 'Cruzeiro', 'Botafogo', 'Santos',
+         'Bahia', 'Fluminense', 'Corinthians', 'Chapecoense', 'Ceará', 'Vasco', 'Sport', 'América-MG', 'EC Vitória', 'Paraná')
+print(f'Lista de times do Brasileirão 2018: {times}.')
+print('=' * 60)
+print(f'Os cinco primeiros foram: {times[0:5]}.')
+print('=' * 60)
+print(f'Os últimos quatro colocados foram: {times[-4:]}.')
+print('=' * 60)
+print(f'Lista de times em ordem alfabética: {sorted(times)}.')
+print('=' * 60)
+print(f'A Chapecoense ocupou a {times.index("Chapecoense")+1}ª posição nesse campeonato.')
